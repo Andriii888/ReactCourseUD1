@@ -1,0 +1,21 @@
+* {
+  background-color: pink;
+  text-align: center;
+}
+
+body {
+  font-size: 24px;
+  color: black;
+}
+.bookList {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+.bookItem {
+  position: relative;
+}
+.numberBox {
+  position: absolute;
+}
