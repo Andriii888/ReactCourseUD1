@@ -76,10 +76,9 @@ const Example = () => {
     </>
   );
 };
-let inputValue = "";
 
 function handleChangeIput(e) {
-  return (inputValue = e.target.value);
+  return console.log(e.target.value);
 }
 function handleSubmitForm(e) {
   e.preventDefault();
